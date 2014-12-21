@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DetailViewController.h"
+#import "InternetDetector.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    //starting internet detection for later use
+    [[InternetDetector sharedManager] startNetworkDetection];
+    
     // Override point for customization after application launch.
     return YES;
 }

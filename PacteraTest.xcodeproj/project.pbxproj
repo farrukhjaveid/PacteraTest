@@ -15,6 +15,24 @@
 		8E63534C1A46B2CD00AA5B4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E63534B1A46B2CD00AA5B4E /* Images.xcassets */; };
 		8E63534F1A46B2CD00AA5B4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E63534D1A46B2CD00AA5B4E /* LaunchScreen.xib */; };
 		8E63535B1A46B2CD00AA5B4E /* PacteraTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63535A1A46B2CD00AA5B4E /* PacteraTestTests.m */; };
+		8E63536B1A46BAAA00AA5B4E /* GenericService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63536A1A46BAAA00AA5B4E /* GenericService.m */; };
+		8E63536C1A46BAAA00AA5B4E /* GenericService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63536A1A46BAAA00AA5B4E /* GenericService.m */; };
+		8E6353711A46BD3500AA5B4E /* GetJsonFeedService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6353701A46BD3500AA5B4E /* GetJsonFeedService.m */; };
+		8E6353721A46BD3500AA5B4E /* GetJsonFeedService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6353701A46BD3500AA5B4E /* GetJsonFeedService.m */; };
+		8E6353761A46BF8100AA5B4E /* InternetDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6353751A46BF8100AA5B4E /* InternetDetector.m */; };
+		8E6353771A46BF8100AA5B4E /* InternetDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6353751A46BF8100AA5B4E /* InternetDetector.m */; };
+		8E63537B1A46BFBD00AA5B4E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63537A1A46BFBD00AA5B4E /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8E63537C1A46BFBD00AA5B4E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63537A1A46BFBD00AA5B4E /* Reachability.m */; };
+		8E6353811A46C24900AA5B4E /* GetJsonFeedServiceOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6353801A46C24900AA5B4E /* GetJsonFeedServiceOperation.m */; };
+		8E6353821A46C24900AA5B4E /* GetJsonFeedServiceOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6353801A46C24900AA5B4E /* GetJsonFeedServiceOperation.m */; };
+		8E6353861A46C26100AA5B4E /* GetJsonFeedServiceOperationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6353851A46C26100AA5B4E /* GetJsonFeedServiceOperationRequest.m */; };
+		8E6353871A46C26100AA5B4E /* GetJsonFeedServiceOperationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6353851A46C26100AA5B4E /* GetJsonFeedServiceOperationRequest.m */; };
+		8E63538A1A46C27300AA5B4E /* GetJsonFeedServiceOperationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6353891A46C27300AA5B4E /* GetJsonFeedServiceOperationResponse.m */; };
+		8E63538B1A46C27300AA5B4E /* GetJsonFeedServiceOperationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6353891A46C27300AA5B4E /* GetJsonFeedServiceOperationResponse.m */; };
+		8E63538E1A46C28000AA5B4E /* GetJsonFeedServiceOperationTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63538D1A46C28000AA5B4E /* GetJsonFeedServiceOperationTranslator.m */; };
+		8E63538F1A46C28000AA5B4E /* GetJsonFeedServiceOperationTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63538D1A46C28000AA5B4E /* GetJsonFeedServiceOperationTranslator.m */; };
+		8E6353921A46CD5200AA5B4E /* JsonFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6353911A46CD5200AA5B4E /* JsonFeedItem.m */; };
+		8E6353931A46CD5200AA5B4E /* JsonFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6353911A46CD5200AA5B4E /* JsonFeedItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +62,24 @@
 		8E6353591A46B2CD00AA5B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E63535A1A46B2CD00AA5B4E /* PacteraTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PacteraTestTests.m; sourceTree = "<group>"; };
 		8E6353681A46B39100AA5B4E /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		8E6353691A46BAAA00AA5B4E /* GenericService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericService.h; sourceTree = "<group>"; };
+		8E63536A1A46BAAA00AA5B4E /* GenericService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericService.m; sourceTree = "<group>"; };
+		8E63536F1A46BD3500AA5B4E /* GetJsonFeedService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetJsonFeedService.h; sourceTree = "<group>"; };
+		8E6353701A46BD3500AA5B4E /* GetJsonFeedService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetJsonFeedService.m; sourceTree = "<group>"; };
+		8E6353741A46BF8100AA5B4E /* InternetDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternetDetector.h; sourceTree = "<group>"; };
+		8E6353751A46BF8100AA5B4E /* InternetDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternetDetector.m; sourceTree = "<group>"; };
+		8E6353791A46BFBD00AA5B4E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		8E63537A1A46BFBD00AA5B4E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		8E63537F1A46C24900AA5B4E /* GetJsonFeedServiceOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetJsonFeedServiceOperation.h; sourceTree = "<group>"; };
+		8E6353801A46C24900AA5B4E /* GetJsonFeedServiceOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetJsonFeedServiceOperation.m; sourceTree = "<group>"; };
+		8E6353841A46C26100AA5B4E /* GetJsonFeedServiceOperationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetJsonFeedServiceOperationRequest.h; sourceTree = "<group>"; };
+		8E6353851A46C26100AA5B4E /* GetJsonFeedServiceOperationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetJsonFeedServiceOperationRequest.m; sourceTree = "<group>"; };
+		8E6353881A46C27300AA5B4E /* GetJsonFeedServiceOperationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetJsonFeedServiceOperationResponse.h; sourceTree = "<group>"; };
+		8E6353891A46C27300AA5B4E /* GetJsonFeedServiceOperationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetJsonFeedServiceOperationResponse.m; sourceTree = "<group>"; };
+		8E63538C1A46C28000AA5B4E /* GetJsonFeedServiceOperationTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetJsonFeedServiceOperationTranslator.h; sourceTree = "<group>"; };
+		8E63538D1A46C28000AA5B4E /* GetJsonFeedServiceOperationTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetJsonFeedServiceOperationTranslator.m; sourceTree = "<group>"; };
+		8E6353901A46CD5200AA5B4E /* JsonFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonFeedItem.h; sourceTree = "<group>"; };
+		8E6353911A46CD5200AA5B4E /* JsonFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonFeedItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,8 +190,90 @@
 			isa = PBXGroup;
 			children = (
 				8E6353681A46B39100AA5B4E /* Constants.h */,
+				8E6353781A46BF8400AA5B4E /* Internet Detector */,
+				8E6353941A46CD5800AA5B4E /* Objects */,
+				8E63536E1A46BABC00AA5B4E /* Services */,
+				8E6353831A46C24D00AA5B4E /* Operations */,
+				8E63537E1A46BFCB00AA5B4E /* External Libraries */,
 			);
 			name = API;
+			sourceTree = "<group>";
+		};
+		8E63536D1A46BAAD00AA5B4E /* Generic Service */ = {
+			isa = PBXGroup;
+			children = (
+				8E6353691A46BAAA00AA5B4E /* GenericService.h */,
+				8E63536A1A46BAAA00AA5B4E /* GenericService.m */,
+			);
+			name = "Generic Service";
+			sourceTree = "<group>";
+		};
+		8E63536E1A46BABC00AA5B4E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8E63536D1A46BAAD00AA5B4E /* Generic Service */,
+				8E6353731A46BD3800AA5B4E /* Get JSON Feed Service */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		8E6353731A46BD3800AA5B4E /* Get JSON Feed Service */ = {
+			isa = PBXGroup;
+			children = (
+				8E63536F1A46BD3500AA5B4E /* GetJsonFeedService.h */,
+				8E6353701A46BD3500AA5B4E /* GetJsonFeedService.m */,
+			);
+			name = "Get JSON Feed Service";
+			sourceTree = "<group>";
+		};
+		8E6353781A46BF8400AA5B4E /* Internet Detector */ = {
+			isa = PBXGroup;
+			children = (
+				8E6353741A46BF8100AA5B4E /* InternetDetector.h */,
+				8E6353751A46BF8100AA5B4E /* InternetDetector.m */,
+			);
+			name = "Internet Detector";
+			sourceTree = "<group>";
+		};
+		8E63537D1A46BFC000AA5B4E /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				8E6353791A46BFBD00AA5B4E /* Reachability.h */,
+				8E63537A1A46BFBD00AA5B4E /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		8E63537E1A46BFCB00AA5B4E /* External Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				8E63537D1A46BFC000AA5B4E /* Reachability */,
+			);
+			name = "External Libraries";
+			sourceTree = "<group>";
+		};
+		8E6353831A46C24D00AA5B4E /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				8E63537F1A46C24900AA5B4E /* GetJsonFeedServiceOperation.h */,
+				8E6353801A46C24900AA5B4E /* GetJsonFeedServiceOperation.m */,
+				8E6353841A46C26100AA5B4E /* GetJsonFeedServiceOperationRequest.h */,
+				8E6353851A46C26100AA5B4E /* GetJsonFeedServiceOperationRequest.m */,
+				8E6353881A46C27300AA5B4E /* GetJsonFeedServiceOperationResponse.h */,
+				8E6353891A46C27300AA5B4E /* GetJsonFeedServiceOperationResponse.m */,
+				8E63538C1A46C28000AA5B4E /* GetJsonFeedServiceOperationTranslator.h */,
+				8E63538D1A46C28000AA5B4E /* GetJsonFeedServiceOperationTranslator.m */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		8E6353941A46CD5800AA5B4E /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				8E6353901A46CD5200AA5B4E /* JsonFeedItem.h */,
+				8E6353911A46CD5200AA5B4E /* JsonFeedItem.m */,
+			);
+			name = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,9 +375,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E6353861A46C26100AA5B4E /* GetJsonFeedServiceOperationRequest.m in Sources */,
+				8E6353921A46CD5200AA5B4E /* JsonFeedItem.m in Sources */,
 				8E6353411A46B2CD00AA5B4E /* AppDelegate.m in Sources */,
+				8E6353761A46BF8100AA5B4E /* InternetDetector.m in Sources */,
+				8E63537B1A46BFBD00AA5B4E /* Reachability.m in Sources */,
 				8E6353441A46B2CD00AA5B4E /* MasterViewController.m in Sources */,
+				8E6353711A46BD3500AA5B4E /* GetJsonFeedService.m in Sources */,
+				8E6353811A46C24900AA5B4E /* GetJsonFeedServiceOperation.m in Sources */,
+				8E63538A1A46C27300AA5B4E /* GetJsonFeedServiceOperationResponse.m in Sources */,
+				8E63538E1A46C28000AA5B4E /* GetJsonFeedServiceOperationTranslator.m in Sources */,
 				8E63533E1A46B2CD00AA5B4E /* main.m in Sources */,
+				8E63536B1A46BAAA00AA5B4E /* GenericService.m in Sources */,
 				8E6353471A46B2CD00AA5B4E /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +395,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E6353771A46BF8100AA5B4E /* InternetDetector.m in Sources */,
 				8E63535B1A46B2CD00AA5B4E /* PacteraTestTests.m in Sources */,
+				8E6353821A46C24900AA5B4E /* GetJsonFeedServiceOperation.m in Sources */,
+				8E63536C1A46BAAA00AA5B4E /* GenericService.m in Sources */,
+				8E6353721A46BD3500AA5B4E /* GetJsonFeedService.m in Sources */,
+				8E63538F1A46C28000AA5B4E /* GetJsonFeedServiceOperationTranslator.m in Sources */,
+				8E63537C1A46BFBD00AA5B4E /* Reachability.m in Sources */,
+				8E6353871A46C26100AA5B4E /* GetJsonFeedServiceOperationRequest.m in Sources */,
+				8E6353931A46CD5200AA5B4E /* JsonFeedItem.m in Sources */,
+				8E63538B1A46C27300AA5B4E /* GetJsonFeedServiceOperationResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
